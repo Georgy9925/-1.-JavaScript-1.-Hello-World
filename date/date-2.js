@@ -4,10 +4,10 @@ function getDaysBeforeBirthday(nextBirthdayDate = new Date(2025, 2, 28, 7)) {
 
 }
 
-//function convertMsToDays(result) {
-    //return Math.round(result / 1000 / 60 / 60 / 24)
+function convertMsToDays(result) {
+    return Math.round(result / 1000 / 60 / 60 / 24)
 
-//}
+}
 
 
 console.log(getDaysBeforeBirthday())
